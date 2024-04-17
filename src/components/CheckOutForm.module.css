@@ -1,0 +1,33 @@
+.billing_details_title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  width: 800px;
+}
+
+.checkoutform {
+  text-align: left;
+}
+
+.input_title {
+  font-style: italic;
+  color: #52525b;
+}
+
+.input_field {
+  width: 100%;
+  padding: 5px 0px 5px 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #f4f4f5;
+  border: 1px solid #e4e4e7;
+}
+
+.submit {
+  margin-top: 10px;
+  color: #f4f4f5;
+  font-style: italic;
+  background-color: black;
+  padding: 5px 20px;
+}

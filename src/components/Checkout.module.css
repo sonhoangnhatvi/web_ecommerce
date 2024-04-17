@@ -1,0 +1,25 @@
+.container {
+  margin: 20px 200px;
+}
+.banner_top {
+  background-color: #fafafa;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_top_right {
+  display: flex;
+  gap: 10px;
+}
+
+.billing_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px 0px 0px;
+}
+
+.banner_top_right_bold {
+  font-weight: bold;
+}

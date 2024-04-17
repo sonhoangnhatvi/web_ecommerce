@@ -1,0 +1,52 @@
+.otherinformation {
+  margin: 20px 200px;
+}
+
+.shippinginfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fafafa;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.subtitle {
+  color: #d4d4d8;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.title_area {
+  text-align: left;
+}
+
+.title_area p {
+  margin: 0;
+  padding: 0;
+}
+
+.title_area .title {
+  font-style: italic;
+}
+
+.ipemail {
+  padding: 20px 80px;
+  border-color: #d4d4d8;
+  color: #d4d4d8;
+}
+
+.btn {
+  padding: 20px 30px;
+  background-color: #000;
+  color: #d4d4d8;
+}

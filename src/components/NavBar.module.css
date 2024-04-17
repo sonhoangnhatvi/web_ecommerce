@@ -1,0 +1,34 @@
+.header {
+  margin: 20px 200px;
+}
+
+.list {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list li a {
+  text-decoration: none;
+}
+
+.navlink {
+  color: #000;
+  cursor: pointer;
+}
+
+.navlink_active {
+  color: orange;
+  cursor: pointer;
+}
+
+.logoutNavLink {
+  margin-left: 10px;
+}

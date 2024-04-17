@@ -1,0 +1,53 @@
+.container {
+  background-color: #fafafa;
+  padding: 0px 30px 30px 30px;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: fit-content;
+  column-gap: 150px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  font-style: italic;
+}
+
+.item_title {
+  font-style: italic;
+  text-align: left;
+}
+
+.item_value,
+.total_value {
+  font-style: italic;
+  text-align: right;
+}
+
+.item_value {
+  color: #a1a1aa;
+}
+
+.input_coupon {
+  grid-row: 3;
+  grid-column: 1/-1;
+  margin-top: 10px;
+}
+
+.btn_apply_coupon {
+  grid-row: 4;
+  grid-column: 1/-1;
+}
+
+.btn_apply_coupon {
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+.title {
+  text-align: left;
+  color: #000;
+  background-color: #f7f1f1;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.title_apple {
+  text-align: left;
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px;
+}
+
+.categoryitems {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.categoryitems li a {
+  text-decoration: none;
+}

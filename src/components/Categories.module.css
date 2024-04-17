@@ -1,0 +1,50 @@
+.categories {
+  background-color: #fafafa;
+  margin: 20px 200px;
+  padding: 10px 0 0 0;
+}
+
+.subtitle {
+  color: #a1a1aa;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.iphone_and_mac {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  margin: 20px 10px;
+}
+
+.iphone_and_mac img {
+  width: 100%;
+}
+
+.iphone_and_mac img:hover {
+  background-color: #fafafa;
+  filter: brightness(105%);
+}
+
+.others {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin: 20px 10px;
+}
+
+.others img {
+  width: 100%;
+  transition: filter 0.3s ease;
+}
+
+.others img:hover {
+  background-color: #fafafa;
+  filter: brightness(105%);
+}

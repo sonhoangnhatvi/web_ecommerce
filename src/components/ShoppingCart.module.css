@@ -1,0 +1,9 @@
+.svg {
+  transform: scale(0.5);
+  fill: #9ca3af;
+}
+
+.svg_white {
+  transform: scale(0.5);
+  fill: #fff;
+}

@@ -1,0 +1,40 @@
+.trending {
+  background-color: #fafafa;
+  margin: 20px 200px;
+  padding: 20px;
+  text-align: left;
+}
+
+.subtitle {
+  color: #a1a1aa;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style-type: none;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.img {
+  width: 100%;
+}
+
+.img:hover {
+  background-color: #fafafa;
+  filter: brightness(105%);
+}
+
+.name {
+  font-weight: bold;
+}
